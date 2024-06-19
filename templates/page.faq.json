@@ -1,0 +1,163 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "full-width"
+      }
+    },
+    "16457242689a58d7f3": {
+      "type": "accordion",
+      "blocks": {
+        "164572426857089649-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What services do you offer?",
+            "text": "<p>Scotts Flowers NYC specializes in daily flower delivery services. We offer same-day delivery within 75 miles of midtown Manhattan. For a full list of our deliverable locations, see below.<\/p>"
+          }
+        },
+        "164572426857089649-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you do weddings?",
+            "text": "<p>Unfortunately due to the pandemic, we’ve suspended all wedding services for the time being, including bridal bouquets, boutonnieres, corsages, and beyond.<\/p>"
+          }
+        },
+        "164572426857089649-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you do small events\/parties?",
+            "text": "<p>Yes! We are happy to provide flowers for dinner parties, birthday get togethers, bridal showers, baby showers, etc. We primarily work off of what’s currently available on our website, but are happy to discuss details with you.<\/p>"
+          }
+        },
+        "tab_content_mCy6nQ": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you offer holiday decor services?",
+            "text": "<p>We do not offer any holiday decor services, including Christmas tree installations, wreaths, or garlands. We do offer holiday decor centerpieces, which you can find on our website.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164572426857089649-0",
+        "164572426857089649-1",
+        "164572426857089649-2",
+        "tab_content_mCy6nQ"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Services",
+        "faq_icon": "plus_minus"
+      }
+    },
+    "164572438470d85add": {
+      "type": "accordion",
+      "blocks": {
+        "164572438495310fd3-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you offer same day delivery?",
+            "text": "<p>Yes, we offer same day delivery anywhere within 75 miles of our New York City storefront! Same-day orders within Manhattan below 125th Street must be placed by 2 PM EST.<\/p>"
+          }
+        },
+        "164572438495310fd3-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How much is your delivery fee?",
+            "text": "<p>For local Manhattan orders, our delivery fee is $18. All orders to Upper Manhattan (above 125th St.), Queens, Brooklyn & the Bronx have a delivery fee of $30. Orders to Staten Island, Westchester, and Nassau County delivery fee of $35. Orders to New Jersey are $40. Orders to Rockland and Suffolk County have a delivery fee of $45.<\/p>"
+          }
+        },
+        "164572438495310fd3-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you have a minimum for delivery?",
+            "text": "<p>Yes, our minimum amount for delivery for a floral arrangement is $100 (not including tax and delivery fee). The starting price for our plants is $75. If you wish to order something below our delivery minimum, you may call us to place an order for store pickup.<\/p>"
+          }
+        },
+        "tab_content_pnHQ9C": {
+          "type": "tab_content",
+          "settings": {
+            "question": "When will my flowers be delivered?",
+            "text": "<p>Our #1 goal is to have your flowers delivered as quickly as possible. We will deliver your order within the selected time frame in the checkout process. Please note for outerborough deliveries, our delivery time frame is from 9am – 5pm, as routes\/traffic vary each day. Trust us it will be there before 5 PM<\/p>"
+          }
+        },
+        "tab_content_eMRP9z": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Will you let me know when the flowers are delivered?",
+            "text": "<p>Yes! You will receive an email confirmation sent to your email address when the flowers have been delivered.<\/p>"
+          }
+        },
+        "tab_content_xtNzNe": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What about plants & orchids?",
+            "text": "<p>For plants or orchids, if your item arrives damaged or not up to standards, please contact us within 14 days to address the issue. After 14 days we are unable to replace your order.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164572438495310fd3-0",
+        "164572438495310fd3-1",
+        "164572438495310fd3-2",
+        "tab_content_pnHQ9C",
+        "tab_content_eMRP9z",
+        "tab_content_xtNzNe"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Delivery",
+        "faq_icon": "plus_minus"
+      }
+    },
+    "1645724424d6db0e5a": {
+      "type": "accordion",
+      "blocks": {
+        "164572442464b4aa49-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What forms of payment do you accept?",
+            "text": "<p>We currently accept payment from all major credit card companies, including American Express. In addition, we accept payment from Paypal, Shopify Pay, and Google Pay.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164572442464b4aa49-0"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Payment",
+        "faq_icon": "plus_minus"
+      }
+    },
+    "accordion_KTHXWY": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_XVbXiV": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you offer subscriptions and how can I sign up?",
+            "text": "<p>Absolutely! To sign up or to learn more about our subscription services, you can visit our Subscription page.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_XVbXiV"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Promotions",
+        "faq_icon": "plus_minus"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16457242689a58d7f3",
+    "164572438470d85add",
+    "1645724424d6db0e5a",
+    "accordion_KTHXWY"
+  ]
+}

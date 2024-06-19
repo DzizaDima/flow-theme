@@ -1,0 +1,56 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer-main": {
+      "type": "footer-main",
+      "blocks": {
+        "image_RCh9Tz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/01-300x300.png",
+            "link": "#",
+            "title": ""
+          }
+        },
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "",
+            "footer_linklist": "footer"
+          }
+        },
+        "social": {
+          "type": "social",
+          "settings": {
+            "social_title": "Follow us"
+          }
+        }
+      },
+      "block_order": [
+        "image_RCh9Tz",
+        "menu",
+        "social"
+      ],
+      "settings": {
+        "alignment": "left",
+        "color_scheme": "white"
+      }
+    },
+    "footer-bottom": {
+      "type": "footer-bottom",
+      "settings": {
+        "show_methods_of_payment": false,
+        "center_content_on_desktop": false,
+        "footer_text": "<p><a href=\"mailto:oharaflowers.ae@gmail.com\" title=\"mailto:oharaflowers.ae@gmail.com\">oharaflowers.ae@gmail.com<\/a><\/p><p><a href=\"tel:+971585996837\" title=\"tel:+971585996837\">+971585996837<\/a><\/p>",
+        "show_currency_selector": false,
+        "show_locale_selector": false,
+        "color_scheme": "white"
+      }
+    }
+  },
+  "order": [
+    "footer-main",
+    "footer-bottom"
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "narrow"
+      }
+    },
+    "collage_builder_BRtfEL": {
+      "type": "collage-builder",
+      "blocks": {
+        "text_X3iRGG": {
+          "type": "text",
+          "settings": {
+            "heading": "Wedding Gallery",
+            "heading_size": 27,
+            "text": "",
+            "text_alignment": "center",
+            "button_label": "",
+            "url": "",
+            "desktop_position": "md-min-align-center md-min-justify-center",
+            "background_color": "#e6e5e7",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424"
+          }
+        },
+        "image_8Xx83w": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/pexels-diana-jude-667320-1536x745_a41c4189-974e-4741-935c-ee4b908b06e9.jpg",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_nCYLMa": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/pexels-rocsana-nicoleta-gurza-948185-1_dbc2b39d-9d4b-427d-a291-a3c3931b3e07.jpg",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_imDbV4": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/pexels-trung-nguyen-2959192-1_c741a368-0291-4e68-b002-656db9302125.jpg",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_Q6am9F": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/pexels-secret-garden-931177-1-1_e6ce7962-da1a-4b68-9e6a-d72ea5d27833.jpg",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_X3iRGG",
+        "image_8Xx83w",
+        "image_nCYLMa",
+        "image_imDbV4",
+        "image_Q6am9F"
+      ],
+      "settings": {
+        "color_scheme": "white",
+        "title": "",
+        "description": "",
+        "remove_spacing": false,
+        "section_width": "content",
+        "width_1": "3",
+        "height_1": "3",
+        "width_2": "1.5",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "3",
+        "height_4": "3",
+        "width_5": "3",
+        "height_5": "3",
+        "width_6": "1",
+        "height_6": "4",
+        "block_alignment": "center"
+      }
+    },
+    "collage_builder_fG8Cya": {
+      "type": "collage-builder",
+      "blocks": {
+        "text_RMbhMf": {
+          "type": "text",
+          "settings": {
+            "heading": "Events Gallery",
+            "heading_size": 30,
+            "text": "",
+            "text_alignment": "center",
+            "button_label": "",
+            "url": "",
+            "desktop_position": "md-min-align-center md-min-justify-center",
+            "background_color": "#e6e5e7",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424"
+          }
+        },
+        "image_fTBqfA": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/pexels-tara-winstead-6479596-1536x745.jpg",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_UtVeqn": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/pexels-tara-winstead-6479601-2-1_da8c52cb-9537-48ef-ace1-69b9bcc44d3b.jpg",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_MzpDFb": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/pexels-tara-winstead-6479604-1.jpg",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_JMHLEC": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/pexels-kseniia-lopyreva-4959845-1.jpg",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_RMbhMf",
+        "image_fTBqfA",
+        "image_UtVeqn",
+        "image_MzpDFb",
+        "image_JMHLEC"
+      ],
+      "settings": {
+        "color_scheme": "white",
+        "title": "",
+        "description": "",
+        "remove_spacing": false,
+        "section_width": "content",
+        "width_1": "3",
+        "height_1": "3",
+        "width_2": "1.5",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "3",
+        "height_4": "3",
+        "width_5": "3",
+        "height_5": "3",
+        "width_6": "1",
+        "height_6": "4",
+        "block_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collage_builder_BRtfEL",
+    "collage_builder_fG8Cya"
+  ]
+}
