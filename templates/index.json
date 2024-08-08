@@ -51,6 +51,7 @@
         "height_desktop": "full",
         "text_size_desktop": 48,
         "text_position_desktop": "left",
+        "image_mobile": "shopify:\/\/shop_images\/photo_2024-08-08_21-16-20.png",
         "height_mobile": "full",
         "text_size_mobile": 28,
         "text_position_mobile": "right"
