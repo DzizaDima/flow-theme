@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "af3e824e-6ca9-4ac4-9510-a07cb14e4a66": {
@@ -38,11 +47,10 @@
       ],
       "settings": {
         "colors": "accent",
-        "image_desktop": "shopify:\/\/shop_images\/IMG_1322-min-1-scaled.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/photo_2024-08-08_21-16-20.jpg",
         "height_desktop": "full",
         "text_size_desktop": 48,
         "text_position_desktop": "left",
-        "image_mobile": "shopify:\/\/shop_images\/IMG_1322-min-1-scaled.jpg",
         "height_mobile": "full",
         "text_size_mobile": 28,
         "text_position_mobile": "right"
@@ -65,7 +73,6 @@
     "image_image_with_text_dztUGM": {
       "type": "image--image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_1462-scaled.jpg",
         "text_overlapping_image": false,
         "section-width": "content",
         "layout": "left",
@@ -94,7 +101,6 @@
     "image_image_with_text_tBnK4R": {
       "type": "image--image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/iStock-1256676691.webp",
         "text_overlapping_image": false,
         "section-width": "content",
         "layout": "left",
@@ -109,7 +115,6 @@
     "image_image_with_text_jMmNMQ": {
       "type": "image--image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/iStock-1251524885.jpg",
         "text_overlapping_image": false,
         "section-width": "content",
         "layout": "right",

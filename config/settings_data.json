@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "color_body_text": "#242424",
@@ -77,7 +86,7 @@
     "share_facebook": true,
     "share_pinterest": true,
     "enable_breadcrumbs": false,
-    "popup--enable": true,
+    "popup--enable": false,
     "pop-up-time": "7",
     "popup--show-social-icons": false,
     "popup--show-newsletter": true,
@@ -118,27 +127,7 @@
     "quick_add_enable": true,
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "5946647744298494267": {
-        "type": "shopify:\/\/apps\/wishlist-plus\/blocks\/wishlist-app-embed\/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "6048552914641687618": {
-        "type": "shopify:\/\/apps\/webrex-converter\/blocks\/app-embed\/065e70d9-d1e0-4d56-a8a3-a58701e43093",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "18112848705471008363": {
-        "type": "shopify:\/\/apps\/hulk-order-status-tracker\/blocks\/app\/66c7eba3-dd2f-4580-9aa0-f17552f0b971",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Nourish": {
