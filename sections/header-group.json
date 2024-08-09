@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "header",
   "name": "Header",
@@ -47,7 +56,6 @@
           "type": "content",
           "settings": {
             "mega-menu": "FLOWERS",
-            "mega_image_1": "shopify:\/\/shop_images\/IMG_7119-min-scaled-e1690120875347-768x773.jpg",
             "image_1_aspect_ratio": "square",
             "mega_image_header_1": "",
             "mega_image_subheader_1": "",
@@ -71,9 +79,9 @@
       "settings": {
         "sticky_header": true,
         "enable_search": true,
-        "logo": "shopify:\/\/shop_images\/Group-1_03a904ba-66d6-4b6a-8d3d-aa775953dd0f.png",
+        "logo": "shopify:\/\/shop_images\/Ohara_Logo_01_-1_fa3648a9-ab79-4c2e-9dcc-cf97a34c934e.png",
         "logo-placement": "above",
-        "logo_max_width": 75,
+        "logo_max_width": 115,
         "logo_max_width_mobile": 60,
         "logo_padding": 15,
         "mobile_social_icons": false,
