@@ -57,8 +57,121 @@
         "text_position_mobile": "right"
       }
     },
+    "image_gallery_9BP3fj": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_7aXUee": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3788.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "button_text_color": "#FFFFFF",
+            "button_background_color": "#242424",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_VtCFny": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3797.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "button_text_color": "#FFFFFF",
+            "button_background_color": "#242424",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_7aXUee",
+        "image_VtCFny"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hide"
+      }
+    },
+    "image_gallery_DB7EDU": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_wBRQNJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3798.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "button_text_color": "#FFFFFF",
+            "button_background_color": "#242424",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_dpPtth": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3795.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "button_text_color": "#FFFFFF",
+            "button_background_color": "#242424",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_cxUfcL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3796.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "button_text_color": "#FFFFFF",
+            "button_background_color": "#242424",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_wBRQNJ",
+        "image_dpPtth",
+        "image_cxUfcL"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hide"
+      }
+    },
     "3643d38b-24f2-4040-ab67-4b4b44a63aab": {
       "type": "collection--featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Seasons Finest",
         "richtext": "<p>Flowers<\/p>",
@@ -73,6 +186,7 @@
     },
     "image_image_with_text_dztUGM": {
       "type": "image--image-with-text",
+      "disabled": true,
       "settings": {
         "text_overlapping_image": false,
         "section-width": "content",
@@ -87,6 +201,7 @@
     },
     "collection_featured_collection_ENEArU": {
       "type": "collection--featured-collection",
+      "disabled": true,
       "settings": {
         "title": "{{ section.settings.collection.title }}",
         "richtext": "<p>Furnish your beautiful bouquet with a vases from our handpicked edit.<\/p>",
@@ -101,6 +216,7 @@
     },
     "image_image_with_text_tBnK4R": {
       "type": "image--image-with-text",
+      "disabled": true,
       "settings": {
         "text_overlapping_image": false,
         "section-width": "content",
@@ -115,6 +231,7 @@
     },
     "image_image_with_text_jMmNMQ": {
       "type": "image--image-with-text",
+      "disabled": true,
       "settings": {
         "text_overlapping_image": false,
         "section-width": "content",
@@ -130,6 +247,8 @@
   },
   "order": [
     "af3e824e-6ca9-4ac4-9510-a07cb14e4a66",
+    "image_gallery_9BP3fj",
+    "image_gallery_DB7EDU",
     "3643d38b-24f2-4040-ab67-4b4b44a63aab",
     "image_image_with_text_dztUGM",
     "collection_featured_collection_ENEArU",
