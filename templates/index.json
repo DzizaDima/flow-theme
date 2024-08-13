@@ -177,7 +177,7 @@
         "collection": "flowers",
         "show_view_all": false,
         "layout_style": "slider",
-        "products_to_show": 8,
+        "products_to_show": 30,
         "grid-desktop": 3,
         "grid-mobile": "2",
         "colors": "white"
@@ -191,7 +191,7 @@
         "collection": "home-collection",
         "show_view_all": false,
         "layout_style": "slider",
-        "products_to_show": 8,
+        "products_to_show": 20,
         "grid-desktop": 3,
         "grid-mobile": "2",
         "colors": "white"
