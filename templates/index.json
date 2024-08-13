@@ -197,6 +197,20 @@
         "colors": "white"
       }
     },
+    "collection_featured_collection_mX77GV": {
+      "type": "collection--featured-collection",
+      "settings": {
+        "title": "Sweets",
+        "richtext": "",
+        "collection": "sweets",
+        "show_view_all": true,
+        "layout_style": "slider",
+        "products_to_show": 20,
+        "grid-desktop": 3,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
     "image_image_with_text_dztUGM": {
       "type": "image--image-with-text",
       "disabled": true,
@@ -264,6 +278,7 @@
     "image_gallery_DB7EDU",
     "3643d38b-24f2-4040-ab67-4b4b44a63aab",
     "collection_featured_collection_epEXBm",
+    "collection_featured_collection_mX77GV",
     "image_image_with_text_dztUGM",
     "collection_featured_collection_ENEArU",
     "image_image_with_text_tBnK4R",
