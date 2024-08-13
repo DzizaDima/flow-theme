@@ -14,3 +14,7 @@
   height: 44px!important;
   line-height: 44px!important;
 }
+
+.footer-main .image-bar__content{
+  max-width: 155px;
+}
