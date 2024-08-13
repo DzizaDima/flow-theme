@@ -70,7 +70,7 @@
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
-            "button_text_color": "#FFFFFF",
+            "button_text_color": "#ffffff",
             "button_background_color": "#242424",
             "overlay_color": "#ffffff"
           }
@@ -85,7 +85,7 @@
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
-            "button_text_color": "#FFFFFF",
+            "button_text_color": "#ffffff",
             "button_background_color": "#242424",
             "overlay_color": "#ffffff"
           }
@@ -118,7 +118,7 @@
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
-            "button_text_color": "#FFFFFF",
+            "button_text_color": "#ffffff",
             "button_background_color": "#242424",
             "overlay_color": "#ffffff"
           }
@@ -133,7 +133,7 @@
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
-            "button_text_color": "#FFFFFF",
+            "button_text_color": "#ffffff",
             "button_background_color": "#242424",
             "overlay_color": "#ffffff"
           }
@@ -148,7 +148,7 @@
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
-            "button_text_color": "#FFFFFF",
+            "button_text_color": "#ffffff",
             "button_background_color": "#242424",
             "overlay_color": "#ffffff"
           }
@@ -171,11 +171,10 @@
     },
     "3643d38b-24f2-4040-ab67-4b4b44a63aab": {
       "type": "collection--featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Seasons Finest",
-        "richtext": "<p>Flowers<\/p>",
-        "collection": "giant-boxes",
+        "title": "Flowers",
+        "richtext": "",
+        "collection": "flowers",
         "show_view_all": false,
         "layout_style": "slider",
         "products_to_show": 8,
