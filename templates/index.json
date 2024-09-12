@@ -270,6 +270,91 @@
         "button_link": "#",
         "colors": "white"
       }
+    },
+    "image_image_with_text_EK9xCX": {
+      "type": "image--image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_2252-min-scaled.jpg",
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "Title",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p><br\/><strong>Price $99<\/strong><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "colors": "light"
+      }
+    },
+    "template_product_info_columns_XicgLR": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_PWXRfm": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.<\/p>",
+            "button_text": "Learn more",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "image_and_text_herUWN": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.<\/p>",
+            "button_text": "Learn more",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "image_and_text_waWacf": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.<\/p>",
+            "button_text": "Learn more",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "image_and_text_DnbqWA": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.<\/p>",
+            "button_text": "Learn more",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "image_and_text_GcwNN4": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.<\/p>",
+            "button_text": "Learn more",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_PWXRfm",
+        "image_and_text_herUWN",
+        "image_and_text_waWacf",
+        "image_and_text_DnbqWA",
+        "image_and_text_GcwNN4"
+      ],
+      "settings": {
+        "colors": "white",
+        "heading": "Info columns",
+        "description": "<p>Emphasise your messaging<\/p>",
+        "columns_per_row": 3,
+        "text_alignment": "center",
+        "vertical_alignment": "top"
+      }
     }
   },
   "order": [
@@ -282,6 +367,8 @@
     "image_image_with_text_dztUGM",
     "collection_featured_collection_ENEArU",
     "image_image_with_text_tBnK4R",
-    "image_image_with_text_jMmNMQ"
+    "image_image_with_text_jMmNMQ",
+    "image_image_with_text_EK9xCX",
+    "template_product_info_columns_XicgLR"
   ]
 }
