@@ -18,3 +18,10 @@
 .footer-main .image-bar__content{
   max-width: 155px;
 }
+
+@media only screen and (max-width:768px){
+  .image-footer{
+    display:flex;
+    justify-content: center;
+  }
+}
