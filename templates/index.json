@@ -15,7 +15,7 @@
         "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-text_static-1": {
           "type": "text_static",
           "settings": {
-            "text_static": "<p>Send your<\/p>",
+            "text_static": "<p>Send your</p>",
             "max_width_desktop": 100,
             "max_width_mobile": 100,
             "text_color": "#000000"
@@ -33,7 +33,7 @@
         "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-button-1": {
           "type": "button",
           "settings": {
-            "button_url": "shopify:\/\/collections\/all",
+            "button_url": "shopify://collections/all",
             "button_text": "Shop now",
             "color_button_text": "#000000",
             "color_button_background": "#f1efeb"
@@ -47,11 +47,11 @@
       ],
       "settings": {
         "colors": "accent",
-        "image_desktop": "shopify:\/\/shop_images\/IMG_3796_ee128200-1690-46f7-badc-30b81d9e019c.jpg",
+        "image_desktop": "shopify://shop_images/IMG_3796_ee128200-1690-46f7-badc-30b81d9e019c.jpg",
         "height_desktop": "full",
         "text_size_desktop": 48,
         "text_position_desktop": "left",
-        "image_mobile": "shopify:\/\/shop_images\/IMG_3796_6cabcf0d-c6c7-4351-9ede-c5a8e0cc8c94.jpg",
+        "image_mobile": "shopify://shop_images/IMG_3796_6cabcf0d-c6c7-4351-9ede-c5a8e0cc8c94.jpg",
         "height_mobile": "original",
         "text_size_mobile": 28,
         "text_position_mobile": "right"
@@ -63,7 +63,7 @@
         "image_7aXUee": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3788.jpg",
+            "image": "shopify://shop_images/IMG_3788.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -78,7 +78,7 @@
         "image_VtCFny": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3797.jpg",
+            "image": "shopify://shop_images/IMG_3797.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -112,7 +112,7 @@
         "image_wBRQNJ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3798.jpg",
+            "image": "shopify://shop_images/IMG_3798.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -127,7 +127,7 @@
         "image_dpPtth": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3795.jpg",
+            "image": "shopify://shop_images/IMG_3795.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -142,7 +142,7 @@
         "image_cxUfcL": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3796.jpg",
+            "image": "shopify://shop_images/IMG_3796.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -213,6 +213,48 @@
         "colors": "white"
       }
     },
+    "collection_featured_collection_Uzxn6B": {
+      "type": "collection--featured-collection",
+      "settings": {
+        "title": "Tonka",
+        "richtext": "",
+        "collection": "tonka",
+        "show_view_all": true,
+        "layout_style": "slider",
+        "products_to_show": 20,
+        "grid-desktop": 3,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
+    "collection_featured_collection_X8nWTQ": {
+      "type": "collection--featured-collection",
+      "settings": {
+        "title": "Linge ST.Barth",
+        "richtext": "",
+        "collection": "ligne-st-barth",
+        "show_view_all": true,
+        "layout_style": "slider",
+        "products_to_show": 20,
+        "grid-desktop": 3,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
+    "collection_featured_collection_iwzMT3": {
+      "type": "collection--featured-collection",
+      "settings": {
+        "title": "Sisters Aroma",
+        "richtext": "",
+        "collection": "sisters-aroma",
+        "show_view_all": true,
+        "layout_style": "slider",
+        "products_to_show": 20,
+        "grid-desktop": 3,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
     "image_image_with_text_dztUGM": {
       "type": "image--image-with-text",
       "disabled": true,
@@ -222,7 +264,7 @@
         "layout": "left",
         "text_alignment": "left",
         "title": "Flowers By Subscription",
-        "text": "<p>Beautify your home with fresh flowers delivered directly to your door. We offer a hassle-free subscription program to help you elevate your space. Every week or every month, we’ll delight you with our timely delivery and beautiful blooms.<br\/><br\/><br\/><br\/><a href=\"#\" title=\"#\">FIND OUT MORE<\/a><\/p>",
+        "text": "<p>Beautify your home with fresh flowers delivered directly to your door. We offer a hassle-free subscription program to help you elevate your space. Every week or every month, we’ll delight you with our timely delivery and beautiful blooms.<br/><br/><br/><br/><a href=\"#\" title=\"#\">FIND OUT MORE</a></p>",
         "button_label": "",
         "button_link": "#",
         "colors": "white"
@@ -233,7 +275,7 @@
       "disabled": true,
       "settings": {
         "title": "{{ section.settings.collection.title }}",
-        "richtext": "<p>Furnish your beautiful bouquet with a vases from our handpicked edit.<\/p>",
+        "richtext": "<p>Furnish your beautiful bouquet with a vases from our handpicked edit.</p>",
         "collection": "vases",
         "show_view_all": true,
         "layout_style": "slider",
@@ -252,7 +294,7 @@
         "layout": "left",
         "text_alignment": "left",
         "title": "Weddings",
-        "text": "<p>Our talented wedding team is dedicated to telling your unique story through extraordinary and memorable floral designs.\t\t\t\t\t\t<br\/><br\/><br\/><br\/><a href=\"\/pages\/weddings\" title=\"Weddings\">FIND OUT MORE<\/a><\/p>",
+        "text": "<p>Our talented wedding team is dedicated to telling your unique story through extraordinary and memorable floral designs.\t\t\t\t\t\t<br/><br/><br/><br/><a href=\"/pages/weddings\" title=\"Weddings\">FIND OUT MORE</a></p>",
         "button_label": "",
         "button_link": "#",
         "colors": "white"
@@ -267,7 +309,7 @@
         "layout": "right",
         "text_alignment": "left",
         "title": "Private Events",
-        "text": "<p>We are on hand to speak with you to create the most beautiful flowers and plants for your event.\t\t\t\t\t\t<br\/><br\/><br\/><br\/><a href=\"\/pages\/private-events\" title=\"Private events\">FIND OUT MORE<\/a><\/p>",
+        "text": "<p>We are on hand to speak with you to create the most beautiful flowers and plants for your event.\t\t\t\t\t\t<br/><br/><br/><br/><a href=\"/pages/private-events\" title=\"Private events\">FIND OUT MORE</a></p>",
         "button_label": "",
         "button_link": "#",
         "colors": "white"
@@ -276,13 +318,13 @@
     "image_image_with_text_EK9xCX": {
       "type": "image--image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_2252-min-scaled.jpg",
+        "image": "shopify://shop_images/IMG_2252-min-scaled.jpg",
         "text_overlapping_image": false,
         "section-width": "content",
         "layout": "left",
         "text_alignment": "center",
         "title": "Title",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p><br\/><strong>Price $99<\/strong><\/p>",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p><p><br/><strong>Price $99</strong></p>",
         "button_label": "",
         "button_link": "",
         "colors": "light"
@@ -296,9 +338,9 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.<\/p>",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
             "button_text": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify://collections/all"
           }
         },
         "image_and_text_herUWN": {
@@ -306,9 +348,9 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.<\/p>",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
             "button_text": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify://collections/all"
           }
         },
         "image_and_text_waWacf": {
@@ -316,9 +358,9 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.<\/p>",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
             "button_text": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify://collections/all"
           }
         },
         "image_and_text_DnbqWA": {
@@ -326,9 +368,9 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.<\/p>",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
             "button_text": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify://collections/all"
           }
         },
         "image_and_text_GcwNN4": {
@@ -336,9 +378,9 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.<\/p>",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
             "button_text": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify://collections/all"
           }
         }
       },
@@ -352,7 +394,7 @@
       "settings": {
         "colors": "white",
         "heading": "Info columns",
-        "description": "<p>Emphasise your messaging<\/p>",
+        "description": "<p>Emphasise your messaging</p>",
         "columns_per_row": 3,
         "text_alignment": "center",
         "vertical_alignment": "top"
@@ -366,6 +408,9 @@
     "3643d38b-24f2-4040-ab67-4b4b44a63aab",
     "collection_featured_collection_epEXBm",
     "collection_featured_collection_mX77GV",
+    "collection_featured_collection_Uzxn6B",
+    "collection_featured_collection_X8nWTQ",
+    "collection_featured_collection_iwzMT3",
     "image_image_with_text_dztUGM",
     "collection_featured_collection_ENEArU",
     "image_image_with_text_tBnK4R",
