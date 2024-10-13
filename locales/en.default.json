@@ -494,7 +494,8 @@
       "reviews_rating": "Reviews rating - {{ value }} out of {{ max }} stars",
       "reviews": "reviews",
       "review": "review",
-      "no_reviews": "No reviews"
+      "no_reviews": "No reviews",
+      "delivery-date": "Delivery date"
     }
   },
   "store_availability": {
