@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.4/air-datepicker.css">
 <div
   itemscope itemtype="http://schema.org/Product"
   data-wetheme-section-type="template--product" data-wetheme-section-id="{{ section.id }}"
@@ -414,6 +415,12 @@
                         </div>
 
                       {%- when 'buy_buttons' -%}
+                        {% if product.tags contains "Flowers" %}
+                          <div class="cstm-input--date">
+                            <svg class="cstm-input--date__loader" style="width: 30px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle fill="#242424" stroke="#242424" stroke-width="15" r="15" cx="40" cy="100"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate></circle><circle fill="#242424" stroke="#242424" stroke-width="15" r="15" cx="100" cy="100"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate></circle><circle fill="#242424" stroke="#242424" stroke-width="15" r="15" cx="160" cy="100"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate></circle></svg>                            
+                            <input required style="display: none;" autocomplete="off" type="text" id="datepicker--{{ section.id }}" placeholder="{{ 'products.product.delivery-date' | t }}" name="properties[Delivery date]">
+                          </div>
+                        {% endif %}
                         <div class="{{ spacing_classes }}" style="--custom-margin-bottom: {{ block.settings.margin_bottom }}px" {{ block.shopify_attributes }}>
                           {%- if product.gift_card? and block.settings.enable_gift_card_recipient_form and product.available -%}
                             {% render 'gift-card-recipient-form' %}
@@ -693,6 +700,72 @@
 
   {%- endcase -%}
 {%- endfor -%}
+
+<script src="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.4/air-datepicker.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+      const blockedDates = '{{ section.settings.blocked_date }}'.split(', ').map(dateStr => {
+        const [day, month, year] = dateStr.split('.');
+        return new Date(year, month - 1, day);
+      });
+
+      let currentDate = new Date();
+      let hours = currentDate.getHours();
+      let minDate;
+      if (hours >= 12) {
+        minDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() + 1);
+      } else {
+        minDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate());
+      }
+      const dp = new AirDatepicker("#datepicker--{{section.id}}" , {
+        minDate: minDate,
+        locale: {
+          days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          daysShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          daysMin: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+          months: [
+            'January',
+            'February',
+            'March',
+            'April',
+            'May',
+            'June',
+            'July',
+            'August',
+            'September',
+            'October',
+            'November',
+            'December',
+          ],
+          monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+          today: 'Today',
+          clear: 'Clear',
+          dateFormat: 'dd/MM/yyyy',
+          firstDay: 0,
+        },
+        onRenderCell: ({ date, cellType }) => {
+          if (cellType === 'day') {
+            const isBlocked = blockedDates.some(
+              (blockedDate) => date.getFullYear() === blockedDate.getFullYear() &&
+                date.getMonth() === blockedDate.getMonth() &&
+                date.getDate() === blockedDate.getDate()
+            );
+            if (isBlocked) {
+              return {
+                disabled: true,
+                classes: 'blocked-date',
+              };
+            }
+          }
+        },
+      });
+
+      document.querySelector('.cstm-input--date__loader').style.display = "none"
+      document.querySelector('#datepicker--{{ section.id }}').style.display = "block"
+    }, 5000)
+  });
+</script>
 
 {% schema %}
 {
