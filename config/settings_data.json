@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_body_text": "#242424",
@@ -66,13 +66,14 @@
     "type_card_vendor_font": "body",
     "type_card_title_font": "heading",
     "show_product_rating": false,
-    "enable_quick_shop_desktop": true,
+    "enable_quick_shop_desktop": false,
+    "enable_quick_shop_mobile": false,
     "quick_shop_button_display": "over_image",
     "quick_shop_button_style": "outline",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": true,
-    "sm_instagram_link": "https:\/\/www.instagram.com\/oharacafe.dubai",
+    "sm_instagram_link": "https://www.instagram.com/oharacafe.dubai",
     "sm_tumblr_link": "",
     "sm_pinterest_link": "",
     "sm_youtube_link": "",
