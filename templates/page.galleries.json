@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_gallery_9BP3fj": {
@@ -15,7 +15,7 @@
         "image_7aXUee": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3788.jpg",
+            "image": "shopify://shop_images/IMG_4800.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -30,7 +30,7 @@
         "image_VtCFny": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3797.jpg",
+            "image": "shopify://shop_images/IMG_4799.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -63,7 +63,7 @@
         "image_wBRQNJ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3798.jpg",
+            "image": "shopify://shop_images/IMG_4791.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -78,7 +78,7 @@
         "image_dpPtth": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3795.jpg",
+            "image": "shopify://shop_images/IMG_4789.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -93,7 +93,7 @@
         "image_cxUfcL": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3796.jpg",
+            "image": "shopify://shop_images/IMG_4790.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -120,10 +120,140 @@
         "section-width": "full",
         "content-position": "hide"
       }
+    },
+    "image_gallery_dFa6Ge": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_UTcQEJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4788.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "button_text_color": "#ffffff",
+            "button_background_color": "#242424",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_T4VgPT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4796.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "button_text_color": "#ffffff",
+            "button_background_color": "#242424",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_AFCzCh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4793_e38a3f21-d034-4c28-96ed-9f8756df55f2.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "button_text_color": "#ffffff",
+            "button_background_color": "#242424",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_UTcQEJ",
+        "image_T4VgPT",
+        "image_AFCzCh"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hide"
+      }
+    },
+    "image_gallery_pVGiTp": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_ULyf4c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4797.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "button_text_color": "#ffffff",
+            "button_background_color": "#242424",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_9YNFrW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4792.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "button_text_color": "#ffffff",
+            "button_background_color": "#242424",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_8RpWDE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4794.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "button_text_color": "#ffffff",
+            "button_background_color": "#242424",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_ULyf4c",
+        "image_9YNFrW",
+        "image_8RpWDE"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hide"
+      }
     }
   },
   "order": [
     "image_gallery_9BP3fj",
-    "image_gallery_DB7EDU"
+    "image_gallery_DB7EDU",
+    "image_gallery_dFa6Ge",
+    "image_gallery_pVGiTp"
   ]
 }
