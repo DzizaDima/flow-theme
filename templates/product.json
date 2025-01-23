@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "product-form": {
@@ -60,7 +69,7 @@
             "icon": "none",
             "heading": "Delivery Information",
             "open_close_icon": "plus_minus",
-            "text": "<p>Same-day delivery in Dubai is available for AED 50<\/p><p>Delivery to Fudjeira Abu Dhabi, Ras Al Khaimah, El-Ain – to confirm the price, please contact our sales department<\/p>",
+            "text": "<p>Same-day delivery in Dubai is available for AED 50</p><p>Delivery to Fudjeira Abu Dhabi, Ras Al Khaimah, El-Ain – to confirm the price, please contact our sales department</p>",
             "page": "",
             "open_by_default": false,
             "margin_bottom": 0
@@ -72,7 +81,7 @@
             "icon": "none",
             "heading": "Size Guide",
             "open_close_icon": "plus_minus",
-            "text": "<p>One size<\/p>",
+            "text": "<p>One size</p>",
             "page": "",
             "open_by_default": false,
             "margin_bottom": 0
@@ -92,6 +101,7 @@
       "settings": {
         "enable_sticky": false,
         "show_out_of_stock_email": false,
+        "blocked_date": "",
         "image_size": "medium",
         "image-display": "thumbnails",
         "thumbnail_position": "left",
@@ -109,7 +119,7 @@
     "product-recommendations": {
       "type": "template--product--recommendations",
       "settings": {
-        "product_recommendations_heading": "You might also like",
+        "product_recommendations_heading": "Add To Your Order",
         "product_recommendations_description": "",
         "layout_style": "slider",
         "products_to_show": 8,
