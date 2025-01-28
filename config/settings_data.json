@@ -73,15 +73,17 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": true,
+    "sm_x_link": "https://www.instagram.com/oharacafe.dubai",
     "sm_instagram_link": "https://www.instagram.com/oharacafe.dubai",
     "sm_tumblr_link": "",
-    "sm_pinterest_link": "",
+    "sm_pinterest_link": "https://www.instagram.com/oharacafe.dubai",
     "sm_youtube_link": "",
     "sm_vimeo_link": "",
     "sm_flickr_link": "",
     "sm_snapchat_link": "",
     "sm_houzz_link": "",
     "sm_linkedin_link": "",
+    "sm_tiktok_link": "https://www.instagram.com/oharacafe.dubai",
     "social_sharing_title": "Share",
     "social_sharing_blog": true,
     "share_facebook": true,
@@ -126,9 +128,7 @@
     "social_sharing_product": true,
     "quick_shop_enable": false,
     "quick_add_enable": true,
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Nourish": {
