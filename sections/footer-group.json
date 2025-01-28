@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer",
@@ -17,7 +17,7 @@
         "image_RCh9Tz": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ohara_Logo_01_-1_fa3648a9-ab79-4c2e-9dcc-cf97a34c934e.png",
+            "image": "shopify://shop_images/Ohara_Logo_01_-1_fa3648a9-ab79-4c2e-9dcc-cf97a34c934e.png",
             "link": "#",
             "title": ""
           }
@@ -51,7 +51,7 @@
       "settings": {
         "show_methods_of_payment": false,
         "center_content_on_desktop": false,
-        "footer_text": "<p><a href=\"mailto:oharaflowers.ae@gmail.com\" title=\"mailto:oharaflowers.ae@gmail.com\">oharaflowers.ae@gmail.com<\/a><\/p><p><a href=\"tel:+971 58 563 9899\" title=\"tel:+971 58 563 9899\">+971 58 563 9899<\/a><\/p>",
+        "footer_text": "<p><a href=\"mailto:oharaflowers.ae@gmail.com\" title=\"mailto:oharaflowers.ae@gmail.com\">oharaflowers.ae@gmail.com</a></p>",
         "show_currency_selector": false,
         "show_locale_selector": false,
         "color_scheme": "white"
