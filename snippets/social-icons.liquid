@@ -75,6 +75,10 @@
     <li id="sm-tiktok"><a class="standalone-icon--wrapper {{ icon_wrapper_classes }}" href="{{ settings.sm_tiktok_link }}" target="_blank" class="tiktok-wrapper" aria-label="{{ 'general.accessibility.social_media.tiktok' | t }}">{% render 'theme-icon' with icon: 'tiktok', iconClasses: icon_classes %}</a></li>
   {% endif %}
 
+  {% if settings.sm_whatsapp_link != blank %}
+    <li id="sm-tiktok"><a class="standalone-icon--wrapper {{ icon_wrapper_classes }}" href="{{ settings.sm_whatsapp_link }}" target="_blank" class="tiktok-wrapper" aria-label="Whatsapp">{% render 'theme-icon' with icon: 'whatsapp', iconClasses: icon_classes %}</a></li>
+  {% endif %}
+
 </ul>
 
 {% endif %}
