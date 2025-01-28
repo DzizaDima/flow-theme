@@ -1069,6 +1069,11 @@
         "info": "t:settings_schema.Social_media.settings.sm_tiktok_link.info"
       },
       {
+        "type": "text",
+        "id": "sm_whatsapp_link",
+        "label": "Whatsapp"
+      },
+      {
         "type": "header",
         "content": "t:settings_schema.Social_media.settings.header-13.content"
       },
