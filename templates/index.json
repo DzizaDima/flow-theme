@@ -12,7 +12,7 @@
     "af3e824e-6ca9-4ac4-9510-a07cb14e4a66": {
       "type": "animated-text",
       "blocks": {
-        "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-text_static-1": {
+        "text_static_QtFACM": {
           "type": "text_static",
           "settings": {
             "text_static": "<p>Send your</p>",
@@ -38,12 +38,22 @@
             "color_button_text": "#000000",
             "color_button_background": "#f1efeb"
           }
+        },
+        "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-text_static-1": {
+          "type": "text_static",
+          "settings": {
+            "text_static": "<p>pre-order for valentine's day </p>",
+            "max_width_desktop": 100,
+            "max_width_mobile": 100,
+            "text_color": "#ffffff"
+          }
         }
       },
       "block_order": [
-        "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-text_static-1",
+        "text_static_QtFACM",
         "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-text_dynamic-1",
-        "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-button-1"
+        "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-button-1",
+        "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-text_static-1"
       ],
       "settings": {
         "colors": "accent",
