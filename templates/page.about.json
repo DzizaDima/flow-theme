@@ -15,9 +15,55 @@
         "page_title_enabled": true,
         "page_width": "narrow"
       }
+    },
+    "section_contact_form_Kt43kU": {
+      "type": "section--contact-form",
+      "blocks": {
+        "name_input_ghyc7A": {
+          "type": "name_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "email_input_ypYK43": {
+          "type": "email_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "tel_input_qFkNX3": {
+          "type": "tel_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        },
+        "message_input_fzYkFU": {
+          "type": "message_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        }
+      },
+      "block_order": [
+        "name_input_ghyc7A",
+        "email_input_ypYK43",
+        "tel_input_qFkNX3",
+        "message_input_fzYkFU"
+      ],
+      "settings": {
+        "form_width": "narrow",
+        "form_title": "Contact us",
+        "form_description": "<p>Have a question, or want a product recommendation? Get in touch.</p>",
+        "section_color_scheme": "white"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_contact_form_Kt43kU"
   ]
 }
