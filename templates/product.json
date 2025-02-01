@@ -118,6 +118,7 @@
     },
     "product-recommendations": {
       "type": "template--product--recommendations",
+      "disabled": true,
       "settings": {
         "product_recommendations_heading": "Add To Your Order",
         "product_recommendations_description": "",
@@ -127,11 +128,26 @@
         "grid-mobile": "2",
         "colors": "white"
       }
+    },
+    "collection_featured_collection_7tmt9H": {
+      "type": "collection--featured-collection",
+      "settings": {
+        "title": "ADD TO YOUR ORDER",
+        "richtext": "",
+        "collection": "recommended-collection",
+        "show_view_all": false,
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
     }
   },
   "order": [
     "product-form",
     "product-description",
-    "product-recommendations"
+    "product-recommendations",
+    "collection_featured_collection_7tmt9H"
   ]
 }
