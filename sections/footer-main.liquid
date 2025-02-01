@@ -137,7 +137,7 @@
             {% case block.type %}
             {% when 'menu' %}
                   {% assign menu = linklists[block.settings.footer_linklist] %}
-                  <div class="grid__item {{ footer_item_width }} links-footer" {{ block.shopify_attributes }}>
+                  <div class="grid__item links-footer" {{ block.shopify_attributes }}>
                       {% unless block.settings.menu_title == "" %}
                           <div class="h3 footer-header">{{ block.settings.menu_title | escape }}</div>
                       {% endunless %}
