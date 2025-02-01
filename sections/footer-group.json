@@ -14,19 +14,19 @@
     "footer-main": {
       "type": "footer-main",
       "blocks": {
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "",
+            "footer_linklist": "footer-new-menu"
+          }
+        },
         "image_RCh9Tz": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Ohara_Logo_01_-1_fa3648a9-ab79-4c2e-9dcc-cf97a34c934e.png",
             "link": "#",
             "title": ""
-          }
-        },
-        "menu": {
-          "type": "menu",
-          "settings": {
-            "menu_title": "",
-            "footer_linklist": "footer-new-menu"
           }
         },
         "social": {
@@ -37,8 +37,8 @@
         }
       },
       "block_order": [
-        "image_RCh9Tz",
         "menu",
+        "image_RCh9Tz",
         "social"
       ],
       "settings": {
