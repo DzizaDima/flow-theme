@@ -424,6 +424,9 @@
                         <div class="cstm-input--date1">
                             <input required autocomplete="off" type="text" id="sender--{{ section.id }}" placeholder="Sender Whatsapp" name="properties[Sender Whatsapp]">
                         </div>
+                        <div class="cstm-input--date1">
+                            <input required autocomplete="off" type="text" id="sender--{{ section.id }}" placeholder="Receiver Whatsapp" name="properties[Receiver Whatsapp]">
+                        </div>
                         <div class="{{ spacing_classes }}" style="--custom-margin-bottom: {{ block.settings.margin_bottom }}px" {{ block.shopify_attributes }}>
                           {%- if product.gift_card? and block.settings.enable_gift_card_recipient_form and product.available -%}
                             {% render 'gift-card-recipient-form' %}
