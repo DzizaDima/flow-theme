@@ -142,7 +142,7 @@
                           <div class="h3 footer-header">{{ block.settings.menu_title | escape }}</div>
                       {% endunless %}
                       {% if menu.links.size > 0 %}
-                          <ul class="footer-content nav-link-animated">
+                          <ul class="footer-content nav-link-animated" style="display: flex;flex-direction: row;width: 100%;gap: 10px;justify-content: center;align-items: center;">
                               {% for link in menu.links %}
                                   {% if link.links != blank %}
                                       <li>
