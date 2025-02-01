@@ -37,36 +37,6 @@
                         </p>
                     </div>
 
-			    {% when 'menu' %}
-
-
-                    {% assign menu = linklists[block.settings.footer_linklist] %}
-                    <div class="grid__item {{ footer_item_width }} links-footer" {{ block.shopify_attributes }}>
-                        {% unless block.settings.menu_title == "" %}
-                            <div class="h3 footer-header">{{ block.settings.menu_title | escape }}</div>
-                        {% endunless %}
-                        {% if menu.links.size > 0 %}
-                            <ul class="footer-content nav-link-animated">
-                                {% for link in menu.links %}
-                                    {% if link.links != blank %}
-                                        <li>
-                                            <a href="{{ link.url }}" class="footer--has-dropdown-title"><span class="animated-underline">{{ link.title }}</span></a>
-                                            <ul class="footer--level-2">
-                                                {% for sub_link in link.links %}
-                                                        <li><a href="{{ sub_link.url }}"><span class="animated-underline">{{ sub_link.title | escape }}</span></a></li>
-                                                {% endfor %}
-                                            </ul>
-                                        </li>
-                                    {% else %}
-                                        <li>
-                                            <a href="{{ link.url }}"><span class="animated-underline">{{ link.title }}</span></a>
-                                        </li>
-                                    {% endif %}
-                                {% endfor %}
-                            </ul>
-                        {% endif %}
-                    </div>
-
 				{% when 'text' %}
 
                     <div class="grid__item {{ footer_item_width }} content-footer" {{ block.shopify_attributes }}>
@@ -159,6 +129,41 @@
 			{% endcase %}
             {% endfor %}
 
+        </div>
+    </div>
+    <div class="wrapper-padded">
+		<div class="grid">
+          {% for block in section.blocks %}
+            {% case block.type %}
+            {% when 'menu' %}
+                  {% assign menu = linklists[block.settings.footer_linklist] %}
+                  <div class="grid__item {{ footer_item_width }} links-footer" {{ block.shopify_attributes }}>
+                      {% unless block.settings.menu_title == "" %}
+                          <div class="h3 footer-header">{{ block.settings.menu_title | escape }}</div>
+                      {% endunless %}
+                      {% if menu.links.size > 0 %}
+                          <ul class="footer-content nav-link-animated">
+                              {% for link in menu.links %}
+                                  {% if link.links != blank %}
+                                      <li>
+                                          <a href="{{ link.url }}" class="footer--has-dropdown-title"><span class="animated-underline">{{ link.title }}</span></a>
+                                          <ul class="footer--level-2">
+                                              {% for sub_link in link.links %}
+                                                      <li><a href="{{ sub_link.url }}"><span class="animated-underline">{{ sub_link.title | escape }}</span></a></li>
+                                              {% endfor %}
+                                          </ul>
+                                      </li>
+                                  {% else %}
+                                      <li>
+                                          <a href="{{ link.url }}"><span class="animated-underline">{{ link.title }}</span></a>
+                                      </li>
+                                  {% endif %}
+                              {% endfor %}
+                          </ul>
+                      {% endif %}
+                  </div>
+              {% endcase %}
+          {% endfor %}
         </div>
     </div>
 </footer>
