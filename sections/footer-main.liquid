@@ -65,7 +65,7 @@
 
 				{% when 'image' %}
 
-					<div class="grid__item {{ footer_item_width }} image-footer" {{ block.shopify_attributes }}>
+					<div class="grid__item large--one-half medium--one-half small--one-whole image-footer" {{ block.shopify_attributes }}>
                     {% if block.settings.image != blank %}
 				      {%- assign img_url = block.settings.image | image_url: width: 600 -%}
                         {% if block.settings.image.alt != empty %}
