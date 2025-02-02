@@ -42,7 +42,31 @@
           object-fit: cover; /* Ensures images cover the area without distortion */
           border-radius: 4px;
         }
-
+        
+        /* Mobile Responsive: Show 2 images per row on screens smaller than 768px */
+        @media (max-width: 768px) {
+          .gallery-images {
+            grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+            gap: 10px; /* Reduce gap for smaller screens */
+            padding: 10px; /* Adjust padding */
+          }
+          
+          .image {
+            height: 300px; /* Adjust height for better fit on mobile */
+          }
+        }
+        
+        /* Extra Small Devices (Phones) */
+        @media (max-width: 480px) {
+          .gallery-images {
+            grid-template-columns: repeat(2, 1fr); /* Still 2 per row on very small screens */
+            gap: 8px; /* Smaller gap */
+          }
+          
+          .image {
+            height: 250px; /* Reduce height further for small screens */
+          }
+        }
       </style>
 
       <div class="gallery-images">
