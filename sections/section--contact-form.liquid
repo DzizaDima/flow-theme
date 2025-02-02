@@ -23,20 +23,23 @@
         .gallery-images {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
-          gap: 15px; /* Adjust gap between images */
-          padding: 20px; /* Padding around the gallery */
+          gap: 15px; /* Space between images */
+          padding: 20px; /* Space around gallery */
           max-width: 900px; /* Adjust width as needed */
           margin: auto;
-        }        
-        .gallery-images .image {
+        }
+        
+        .image {
           overflow: hidden;
           border-radius: 10px; /* Rounded corners */
-        }        
-        .gallery-images .image img {
+          height: 250px; /* Set a fixed height for uniformity */
+        }
+        
+        .image img {
           width: 100%;
-          height: auto;
+          height: 100%;
           display: block;
-          object-fit: cover;
+          object-fit: cover; /* Ensures images cover the area without distortion */
           border-radius: 10px;
         }
 
