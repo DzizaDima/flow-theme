@@ -25,7 +25,12 @@
 
                   <style>
                     .grid__social {
-                      padding-left: 0; display: flex; justify-content: space-between;align-items: center;
+                      padding-left: 0 !important; display: flex; justify-content: space-between;align-items: center;
+                    }
+                    @media (max-width: 768px) {
+                       .grid__social {
+                          flex-direction: column;
+                        } 
                     }
                   </style>
                     <div class="grid__social grid__item large--one-half medium--one-half small--one-whole social-media-footer" {{ block.shopify_attributes }}>
