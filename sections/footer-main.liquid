@@ -23,7 +23,7 @@
 
 				{% when 'social' %}
 
-                    <div style="display: flex; justify-content: space-between;align-items: center;" class="grid__item large--one-half medium--one-half small--one-whole social-media-footer" {{ block.shopify_attributes }}>
+                    <div style="padding-left: 0; display: flex; justify-content: space-between;align-items: center;" class="grid__item large--one-half medium--one-half small--one-whole social-media-footer" {{ block.shopify_attributes }}>
                       <div class="left">
                         {% unless block.settings.social_title == "" %}
                             <div class="h3 footer-header">{{ block.settings.social_title | escape }}</div>
