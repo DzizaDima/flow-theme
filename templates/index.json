@@ -181,6 +181,20 @@
         "content-position": "hide"
       }
     },
+    "collection_featured_collection_qgUNFr": {
+      "type": "collection--featured-collection",
+      "settings": {
+        "title": "St. Valentine's Day",
+        "richtext": "",
+        "collection": "st-valentines-day",
+        "show_view_all": false,
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
     "3643d38b-24f2-4040-ab67-4b4b44a63aab": {
       "type": "collection--featured-collection",
       "settings": {
@@ -278,33 +292,19 @@
         "grid-mobile": "2",
         "colors": "white"
       }
-    },
-    "collection_featured_collection_qgUNFr": {
-      "type": "collection--featured-collection",
-      "settings": {
-        "title": "St. Valentine's Day",
-        "richtext": "",
-        "collection": "st-valentines-day",
-        "show_view_all": false,
-        "layout_style": "slider",
-        "products_to_show": 8,
-        "grid-desktop": 4,
-        "grid-mobile": "2",
-        "colors": "white"
-      }
     }
   },
   "order": [
     "af3e824e-6ca9-4ac4-9510-a07cb14e4a66",
     "image_gallery_9BP3fj",
     "image_gallery_DB7EDU",
+    "collection_featured_collection_qgUNFr",
     "3643d38b-24f2-4040-ab67-4b4b44a63aab",
-    "collection_featured_collection_epEXBm",
     "collection_featured_collection_mX77GV",
     "collection_featured_collection_Uzxn6B",
     "collection_featured_collection_X8nWTQ",
     "collection_featured_collection_iwzMT3",
     "collection_featured_collection_kjecQQ",
-    "collection_featured_collection_qgUNFr"
+    "collection_featured_collection_epEXBm"
   ]
 }
