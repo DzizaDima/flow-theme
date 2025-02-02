@@ -278,6 +278,20 @@
         "grid-mobile": "2",
         "colors": "white"
       }
+    },
+    "collection_featured_collection_qgUNFr": {
+      "type": "collection--featured-collection",
+      "settings": {
+        "title": "St. Valentine's Day",
+        "richtext": "",
+        "collection": "st-valentines-day",
+        "show_view_all": false,
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
     }
   },
   "order": [
@@ -290,6 +304,7 @@
     "collection_featured_collection_Uzxn6B",
     "collection_featured_collection_X8nWTQ",
     "collection_featured_collection_iwzMT3",
-    "collection_featured_collection_kjecQQ"
+    "collection_featured_collection_kjecQQ",
+    "collection_featured_collection_qgUNFr"
   ]
 }
