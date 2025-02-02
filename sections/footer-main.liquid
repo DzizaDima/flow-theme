@@ -24,17 +24,21 @@
 				{% when 'social' %}
 
                     <div class="grid__item {{ footer_item_width }} social-media-footer" {{ block.shopify_attributes }}>
+                      <div class="left">
                         {% unless block.settings.social_title == "" %}
                             <div class="h3 footer-header">{{ block.settings.social_title | escape }}</div>
                         {% endunless %}
                         {% render 'social-icons' %}
                         <strong class="h3">Business Hours</strong>
                         <p>Mon - Sun: 7AM - 10PM</p>    
+                      </div>
+                      <div class="right">
                         <p>O'hara Flowers & Cafe <br />
                           Golden Mile 10 <br />
                           Palm Jumeirah <br />
                           Dubai <br />
                         </p>
+                      </div>                                                
                     </div>
 
 				{% when 'text' %}
