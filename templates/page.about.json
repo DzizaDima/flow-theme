@@ -54,6 +54,7 @@
         "tel_input_qFkNX3",
         "message_input_fzYkFU"
       ],
+      "disabled": true,
       "settings": {
         "form_width": "narrow",
         "form_title": "Contact us",
