@@ -25,3 +25,10 @@
     justify-content: center;
   }
 }
+
+#CollectionFiltersForm details.disclosure-has-popup:nth-child(4) {
+  display: none !important;
+}
+#st-valentine-39-s-day #CollectionFiltersForm details.disclosure-has-popup:nth-child(4) {
+  display: block !important;
+}
