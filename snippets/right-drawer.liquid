@@ -201,9 +201,10 @@
                     <p class="text-center">{{ taxes_shipping_checkout }}</p>
                   </div>
 
-                  <button type="submit" class="btn cart__checkout" name="checkout">
+                  <button style="display: none;" type="submit" class="btn cart__checkout" name="checkout">
                     {{ 'cart.general.checkout' | t }}
                   </button>
+                  <a href="/cart" class="btn cart__checkout">{{ 'cart.general.checkout' | t }}</a>
 
                   {% if additional_checkout_buttons and settings.enable-additional-checkout-buttons %}
                     <div class="additional-checkout-buttons additional-checkout-buttons--vertical">
