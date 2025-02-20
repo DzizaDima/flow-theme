@@ -38,23 +38,33 @@
             "color_button_text": "#000000",
             "color_button_background": "#f1efeb"
           }
+        },
+        "text_static_VfHf9L": {
+          "type": "text_static",
+          "settings": {
+            "text_static": "<p>Pre Order for 8th March</p>",
+            "max_width_desktop": 100,
+            "max_width_mobile": 100,
+            "text_color": "#ffffff"
+          }
         }
       },
       "block_order": [
         "text_static_QtFACM",
         "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-text_dynamic-1",
-        "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-button-1"
+        "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-button-1",
+        "text_static_VfHf9L"
       ],
       "settings": {
         "colors": "accent",
-        "image_desktop": "shopify://shop_images/IMG_1760.jpg",
+        "image_desktop": "shopify://shop_images/2E55C37D-C3A0-4C08-A3BD-37C450052DC3.jpg",
         "height_desktop": "full",
         "text_size_desktop": 48,
         "text_position_desktop": "left",
-        "image_mobile": "shopify://shop_images/IMG_1760.jpg",
+        "image_mobile": "shopify://shop_images/2E55C37D-C3A0-4C08-A3BD-37C450052DC3.jpg",
         "height_mobile": "original",
         "text_size_mobile": 28,
-        "text_position_mobile": "top_left"
+        "text_position_mobile": "bottom_right"
       }
     },
     "image_gallery_9BP3fj": {
