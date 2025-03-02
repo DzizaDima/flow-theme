@@ -33,7 +33,7 @@
         "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-button-1": {
           "type": "button",
           "settings": {
-            "button_url": "shopify://collections/st-valentines-day",
+            "button_url": "shopify://collections/flowers",
             "button_text": "Shop now",
             "color_button_text": "#000000",
             "color_button_background": "#f1efeb"
