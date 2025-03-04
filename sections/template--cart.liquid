@@ -239,7 +239,7 @@
           {%- if today == specialDate -%}
             {%- assign minOrderAmount = 700 -%}
           {%- else -%}
-            {%- assign minOrderAmount = 1000 -%}
+            {%- assign minOrderAmount = 0 -%}
           {%- endif -%}
           
           {%- if totalCartAmount >= minOrderAmount -%}
