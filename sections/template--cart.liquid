@@ -234,7 +234,7 @@
           {%- assign totalCartAmount = cart.total_price | divided_by: 100.0 -%}
           
           {%- assign today = "now" | date: "%d-%m" -%}
-          {%- assign specialDate = "08-03" -%}  {# 8th March #}
+          {%- assign specialDate = "08-03" -%}
           
           {%- if today == specialDate -%}
             {%- assign minOrderAmount = 700 -%}
