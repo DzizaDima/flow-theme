@@ -12,6 +12,16 @@
   {% assign subtotal_compare_at_price = 0 %}
 
   {% if cart.item_count > 0 %}
+    {% assign target_date = "08/03/2025" %}
+    {% assign match_found = false %}
+    {% for item in cart.items %}
+      {% for p in item.properties %}
+        {% if p.first == "Delivery date" and p.last == target_date %}
+          {% assign match_found = true %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    
     <div class="sitewide--title-wrapper">
       <h1 class="page--title">{{ 'cart.general.title' | t }}</h1>
     </div>
@@ -236,7 +246,7 @@
           {%- assign today = "now" | date: "%d-%m" -%}
           {%- assign specialDate = "08-03" -%}
           
-          {%- if today == specialDate -%}
+          {%- if match_found -%}
             {%- assign minOrderAmount = 700 -%}
           {%- else -%}
             {%- assign minOrderAmount = 0 -%}
