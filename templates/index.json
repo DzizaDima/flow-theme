@@ -42,7 +42,7 @@
         "text_static_VfHf9L": {
           "type": "text_static",
           "settings": {
-            "text_static": "<p>mother's day pre order</p>",
+            "text_static": "",
             "max_width_desktop": 100,
             "max_width_mobile": 100,
             "text_color": "#ffffff"
