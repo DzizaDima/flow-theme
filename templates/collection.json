@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "wrapper": "div.collection-wrapper.wrapper",
   "sections": {
@@ -6,16 +15,14 @@
       "blocks": {
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "description"
       ],
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "product-grid": {
       "type": "template--collection",
@@ -31,10 +38,128 @@
         "show_swatch_filter_labels": true,
         "enable_sorting": true
       }
+    },
+    "accordion_7VFBNP": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_mVXFAA": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What if my sweets or chocolate strawberries are not acceptable?",
+            "text": "<p>Because we sell perishable food items, we do not issue refunds. If you believe an item was defective, not fresh, or damaged in transit, report the issue within 24 hours of delivery. We will investigate the claim and, where appropriate, offer a replacement or other remedial option. Refunds are not offered for perishable food products.<br/>Important: </p><p>For safety and quality reasons, keep the product (if possible) and the packaging until the claim is assessed.<br/></p>"
+          }
+        },
+        "tab_content_4GUa8d": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q1.value }}",
+            "text": "{{ collection.metafields.custom.a1 | metafield_tag }}"
+          }
+        },
+        "tab_content_ED3pNh": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q2.value }}",
+            "text": "{{ collection.metafields.custom.a2 | metafield_tag }}"
+          }
+        },
+        "tab_content_NKFzKX": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q3.value }}",
+            "text": "{{ collection.metafields.custom.a3 | metafield_tag }}"
+          }
+        },
+        "tab_content_rPk4pW": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q4.value }}",
+            "text": "{{ collection.metafields.custom.a4 | metafield_tag }}"
+          }
+        },
+        "tab_content_4JhcMN": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q5.value }}",
+            "text": "{{ collection.metafields.custom.a5 | metafield_tag }}"
+          }
+        },
+        "tab_content_WyDJ99": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q6.value }}",
+            "text": "{{ collection.metafields.custom.a6 | metafield_tag }}"
+          }
+        },
+        "tab_content_VH7WCC": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q7.value }}",
+            "text": "{{ collection.metafields.custom.a7 | metafield_tag }}"
+          }
+        },
+        "tab_content_qjBgq7": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q8.value }}",
+            "text": "{{ collection.metafields.custom.a8 | metafield_tag }}"
+          }
+        },
+        "tab_content_TCJYMW": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q9.value }}",
+            "text": "{{ collection.metafields.custom.a9 | metafield_tag }}"
+          }
+        },
+        "tab_content_VLyDz7": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q10.value }}",
+            "text": "{{ collection.metafields.custom.a10 | metafield_tag }}"
+          }
+        },
+        "tab_content_AKV48A": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q11.value }}",
+            "text": "{{ collection.metafields.custom.a11 | metafield_tag }}"
+          }
+        },
+        "tab_content_Ky8e3f": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q12.value }}",
+            "text": "{{ collection.metafields.custom.a12 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_mVXFAA",
+        "tab_content_4GUa8d",
+        "tab_content_ED3pNh",
+        "tab_content_NKFzKX",
+        "tab_content_rPk4pW",
+        "tab_content_4JhcMN",
+        "tab_content_WyDJ99",
+        "tab_content_VH7WCC",
+        "tab_content_qjBgq7",
+        "tab_content_TCJYMW",
+        "tab_content_VLyDz7",
+        "tab_content_AKV48A",
+        "tab_content_Ky8e3f"
+      ],
+      "name": "t:sections.accordion.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "Frequently asked questions",
+        "faq_icon": "plus_minus"
+      }
     }
   },
   "order": [
     "collection-header-spotlight",
-    "product-grid"
+    "product-grid",
+    "accordion_7VFBNP"
   ]
 }
