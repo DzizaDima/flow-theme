@@ -101,7 +101,7 @@
           {% if settings.hover-effect and product.media.size > 1 %}
             <div class="hidden">
               {% assign image = product.media[1].preview_image %}
-              {% render 'responsive-image' with image, alt: image.alt, allow_stretch: image_stretch, blur: false %}
+              {% render 'responsive-image' with image, alt: product.title, allow_stretch: image_stretch, blur: false %}
             </div>
           {% endif %}
         {% else %}
