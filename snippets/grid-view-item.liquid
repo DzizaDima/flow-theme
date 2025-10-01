@@ -95,7 +95,7 @@
           {% comment %} Placeholder for swatch images {% endcomment %}
           {% if settings.show_card_color_swatches %}
             {% assign swatch_image_attributes = 'data-product-card-swatch-image style="opacity: 0;"' %}
-            {% render 'responsive-image' with image, alt: image.alt, allow_stretch: image_stretch, blur: false, props: swatch_image_attributes %}
+            {% render 'responsive-image' with image, alt: product.title, allow_stretch: image_stretch, blur: false, props: swatch_image_attributes %}
           {% endif %}
 
           {% if settings.hover-effect and product.media.size > 1 %}
