@@ -90,6 +90,7 @@
       {% if image_crop %}<div class="aspect-ratio {{ image_crop }}">{% endif %}
         {% if product.media.size > 0 %}
           {% assign image = product.media[0].preview_image %}
+          {% render 'responsive-image' with image, alt: product.title, allow_stretch: image_stretch, blur: false, props: 'data-product-card-image' %}
 
           {% comment %} Placeholder for swatch images {% endcomment %}
           {% if settings.show_card_color_swatches %}
@@ -100,7 +101,6 @@
           {% if settings.hover-effect and product.media.size > 1 %}
             <div class="hidden">
               {% assign image = product.media[1].preview_image %}
-              {% render 'responsive-image' with image, alt: product.title, allow_stretch: image_stretch, blur: false %}
             </div>
           {% endif %}
         {% else %}
