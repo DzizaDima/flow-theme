@@ -194,6 +194,7 @@
       "block_order": [
         "heading_mnKrUz"
       ],
+      "custom_css": [],
       "name": "t:sections.text--rich-text.presets.name",
       "settings": {
         "section_width": "narrow",
