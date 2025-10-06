@@ -39,6 +39,28 @@
         "enable_sorting": true
       }
     },
+    "text_rich_text_zFyBCN": {
+      "type": "text--rich-text",
+      "blocks": {
+        "richtext_XmzfRq": {
+          "type": "richtext",
+          "settings": {
+            "text": "{{ collection.description }}",
+            "text_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "richtext_XmzfRq"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "center",
+        "colors": "white"
+      }
+    },
     "accordion_7VFBNP": {
       "type": "accordion",
       "blocks": {
@@ -160,6 +182,7 @@
   "order": [
     "collection-header-spotlight",
     "product-grid",
+    "text_rich_text_zFyBCN",
     "accordion_7VFBNP"
   ]
 }
