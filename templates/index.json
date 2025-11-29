@@ -29,21 +29,11 @@
             "color_button_text": "#000000",
             "color_button_background": "#f1efeb"
           }
-        },
-        "text_static_VfHf9L": {
-          "type": "text_static",
-          "settings": {
-            "text_static": "",
-            "max_width_desktop": 100,
-            "max_width_mobile": 100,
-            "text_color": "#ffffff"
-          }
         }
       },
       "block_order": [
         "text_static_QtFACM",
-        "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-button-1",
-        "text_static_VfHf9L"
+        "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-button-1"
       ],
       "settings": {
         "colors": "accent",
