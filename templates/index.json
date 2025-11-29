@@ -161,28 +161,6 @@
         "content-position": "hide"
       }
     },
-    "text_rich_text_UaHTzi": {
-      "type": "text--rich-text",
-      "blocks": {
-        "heading_mnKrUz": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ohara flowers & cafe"
-          }
-        }
-      },
-      "block_order": [
-        "heading_mnKrUz"
-      ],
-      "custom_css": [],
-      "name": "t:sections.text--rich-text.presets.name",
-      "settings": {
-        "section_width": "full-width",
-        "text_alignment_desktop": "center",
-        "text_alignment_mobile": "center",
-        "colors": "white"
-      }
-    },
     "3643d38b-24f2-4040-ab67-4b4b44a63aab": {
       "type": "collection--featured-collection",
       "settings": {
@@ -286,7 +264,6 @@
     "af3e824e-6ca9-4ac4-9510-a07cb14e4a66",
     "image_gallery_9BP3fj",
     "image_gallery_DB7EDU",
-    "text_rich_text_UaHTzi",
     "3643d38b-24f2-4040-ab67-4b4b44a63aab",
     "collection_featured_collection_mX77GV",
     "collection_featured_collection_Uzxn6B",
