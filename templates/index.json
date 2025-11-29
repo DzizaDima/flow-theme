@@ -52,9 +52,9 @@
         "text_size_desktop": 40,
         "text_position_desktop": "left",
         "image_mobile": "shopify://shop_images/Untitled_design.jpg",
-        "height_mobile": "original",
-        "text_size_mobile": 28,
-        "text_position_mobile": "bottom_right"
+        "height_mobile": "l",
+        "text_size_mobile": 18,
+        "text_position_mobile": "bottom_left"
       }
     },
     "image_gallery_9BP3fj": {
