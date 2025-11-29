@@ -52,7 +52,7 @@
         "text_size_desktop": 40,
         "text_position_desktop": "left",
         "image_mobile": "shopify://shop_images/Untitled_design.jpg",
-        "height_mobile": "m",
+        "height_mobile": "s",
         "text_size_mobile": 18,
         "text_position_mobile": "bottom_left"
       }
@@ -187,7 +187,7 @@
       "custom_css": [],
       "name": "t:sections.text--rich-text.presets.name",
       "settings": {
-        "section_width": "narrow",
+        "section_width": "full-width",
         "text_alignment_desktop": "center",
         "text_alignment_mobile": "center",
         "colors": "white"
