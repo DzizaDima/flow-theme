@@ -15,19 +15,10 @@
         "text_static_QtFACM": {
           "type": "text_static",
           "settings": {
-            "text_static": "<p>Send your</p>",
+            "text_static": "<p>Send your love</p>",
             "max_width_desktop": 100,
             "max_width_mobile": 100,
-            "text_color": "#000000"
-          }
-        },
-        "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-text_dynamic-1": {
-          "type": "text_dynamic",
-          "settings": {
-            "text_dynamic": "love,feelings",
-            "animation_timing": 500,
-            "rotation_interval": 5000,
-            "text_color": "#000000"
+            "text_color": "#f1dfdf"
           }
         },
         "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-button-1": {
@@ -51,17 +42,16 @@
       },
       "block_order": [
         "text_static_QtFACM",
-        "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-text_dynamic-1",
         "template--15051013783622__af3e824e-6ca9-4ac4-9510-a07cb14e4a66-button-1",
         "text_static_VfHf9L"
       ],
       "settings": {
         "colors": "accent",
-        "image_desktop": "shopify://shop_images/2E55C37D-C3A0-4C08-A3BD-37C450052DC3.jpg",
-        "height_desktop": "full",
-        "text_size_desktop": 48,
+        "image_desktop": "shopify://shop_images/Untitled_design.jpg",
+        "height_desktop": "l",
+        "text_size_desktop": 40,
         "text_position_desktop": "left",
-        "image_mobile": "shopify://shop_images/2E55C37D-C3A0-4C08-A3BD-37C450052DC3.jpg",
+        "image_mobile": "shopify://shop_images/Untitled_design.jpg",
         "height_mobile": "original",
         "text_size_mobile": 28,
         "text_position_mobile": "bottom_right"
@@ -187,7 +177,7 @@
         "heading_mnKrUz": {
           "type": "heading",
           "settings": {
-            "heading": "Ohara Cafe — Flower CafeShop in Dubai"
+            "heading": "Ohara flowers & cafe"
           }
         }
       },
