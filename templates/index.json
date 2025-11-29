@@ -52,7 +52,7 @@
         "text_size_desktop": 40,
         "text_position_desktop": "left",
         "image_mobile": "shopify://shop_images/Untitled_design.jpg",
-        "height_mobile": "l",
+        "height_mobile": "m",
         "text_size_mobile": 18,
         "text_position_mobile": "bottom_left"
       }
