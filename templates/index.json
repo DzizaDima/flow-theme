@@ -164,13 +164,13 @@
     "3643d38b-24f2-4040-ab67-4b4b44a63aab": {
       "type": "collection--featured-collection",
       "settings": {
-        "title": "Flowers",
+        "title": "FESTIVE COLLECTION",
         "richtext": "",
-        "collection": "flowers",
+        "collection": "festive-collection",
         "show_view_all": true,
         "layout_style": "slider",
         "products_to_show": 30,
-        "grid-desktop": 3,
+        "grid-desktop": 5,
         "grid-mobile": "2",
         "colors": "white"
       }
@@ -178,13 +178,13 @@
     "collection_featured_collection_mX77GV": {
       "type": "collection--featured-collection",
       "settings": {
-        "title": "Sweets",
+        "title": "Flowers",
         "richtext": "",
-        "collection": "sweets",
+        "collection": "flowers",
         "show_view_all": true,
         "layout_style": "slider",
-        "products_to_show": 20,
-        "grid-desktop": 3,
+        "products_to_show": 30,
+        "grid-desktop": 5,
         "grid-mobile": "2",
         "colors": "white"
       }
@@ -192,13 +192,13 @@
     "collection_featured_collection_Uzxn6B": {
       "type": "collection--featured-collection",
       "settings": {
-        "title": "Tonka",
+        "title": "sweets",
         "richtext": "",
-        "collection": "tonka",
+        "collection": "sweets",
         "show_view_all": true,
         "layout_style": "slider",
-        "products_to_show": 20,
-        "grid-desktop": 3,
+        "products_to_show": 30,
+        "grid-desktop": 5,
         "grid-mobile": "2",
         "colors": "white"
       }
@@ -206,13 +206,13 @@
     "collection_featured_collection_X8nWTQ": {
       "type": "collection--featured-collection",
       "settings": {
-        "title": "Ligne ST.Barth",
+        "title": "VASES",
         "richtext": "",
-        "collection": "ligne-st-barth",
+        "collection": "vases",
         "show_view_all": true,
         "layout_style": "slider",
         "products_to_show": 20,
-        "grid-desktop": 3,
+        "grid-desktop": 5,
         "grid-mobile": "2",
         "colors": "white"
       }
@@ -220,13 +220,13 @@
     "collection_featured_collection_iwzMT3": {
       "type": "collection--featured-collection",
       "settings": {
-        "title": "Sisters Aroma",
+        "title": "balloons",
         "richtext": "",
-        "collection": "sisters-aroma",
+        "collection": "balloons",
         "show_view_all": true,
         "layout_style": "slider",
         "products_to_show": 20,
-        "grid-desktop": 3,
+        "grid-desktop": 5,
         "grid-mobile": "2",
         "colors": "white"
       }
@@ -234,13 +234,13 @@
     "collection_featured_collection_kjecQQ": {
       "type": "collection--featured-collection",
       "settings": {
-        "title": "Balloons",
+        "title": "tonka",
         "richtext": "",
-        "collection": "balloons",
+        "collection": "tonka",
         "show_view_all": false,
         "layout_style": "slider",
         "products_to_show": 8,
-        "grid-desktop": 4,
+        "grid-desktop": 5,
         "grid-mobile": "2",
         "colors": "white"
       }
@@ -248,13 +248,13 @@
     "collection_featured_collection_epEXBm": {
       "type": "collection--featured-collection",
       "settings": {
-        "title": "Home collection",
+        "title": "sisters aroma",
         "richtext": "",
-        "collection": "home-collection",
+        "collection": "sisters-aroma",
         "show_view_all": true,
         "layout_style": "slider",
         "products_to_show": 20,
-        "grid-desktop": 3,
+        "grid-desktop": 5,
         "grid-mobile": "2",
         "colors": "white"
       }
