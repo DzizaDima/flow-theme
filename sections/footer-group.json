@@ -51,7 +51,7 @@
       "settings": {
         "show_methods_of_payment": false,
         "center_content_on_desktop": false,
-        "footer_text": "<p>info@ohara.ae</p>",
+        "footer_text": "<p><a href=\"mailto:cafe@ohara.ae\" title=\"Send us email\">cafe@ohara.ae</a></p><p><a href=\"https://wa.me/971585639899\" title=\"Whatsapp Ohara Flowers & Cafe\">+971 58 563 9899</a></p>",
         "show_currency_selector": false,
         "show_locale_selector": false,
         "color_scheme": "white"
