@@ -53,6 +53,7 @@
       "block_order": [
         "richtext_XmzfRq"
       ],
+      "custom_css": [],
       "name": "t:sections.text--rich-text.presets.name",
       "settings": {
         "section_width": "narrow",
