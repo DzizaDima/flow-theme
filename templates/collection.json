@@ -172,6 +172,9 @@
         "tab_content_AKV48A",
         "tab_content_Ky8e3f"
       ],
+      "custom_css": [
+        ".accordion-content .text-with-icon--text {font-weight: 400;}"
+      ],
       "name": "t:sections.accordion.presets.name",
       "settings": {
         "colors": "white",
