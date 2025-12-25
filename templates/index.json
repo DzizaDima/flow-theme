@@ -161,6 +161,27 @@
         "content-position": "hide"
       }
     },
+    "text_rich_text_GjXnHm": {
+      "type": "text--rich-text",
+      "blocks": {
+        "heading_Uctchf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ohara Cafe — Flower Cafe Shop in Dubai"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Uctchf"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "colors": "white"
+      }
+    },
     "3643d38b-24f2-4040-ab67-4b4b44a63aab": {
       "type": "collection--featured-collection",
       "settings": {
@@ -264,6 +285,7 @@
     "af3e824e-6ca9-4ac4-9510-a07cb14e4a66",
     "image_gallery_9BP3fj",
     "image_gallery_DB7EDU",
+    "text_rich_text_GjXnHm",
     "3643d38b-24f2-4040-ab67-4b4b44a63aab",
     "collection_featured_collection_mX77GV",
     "collection_featured_collection_Uzxn6B",
