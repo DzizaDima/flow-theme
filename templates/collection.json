@@ -95,6 +95,7 @@
         },
         "tab_content_rPk4pW": {
           "type": "tab_content",
+          "disabled": true,
           "settings": {
             "question": "{{ collection.metafields.custom.q4.value }}",
             "text": "{{ collection.metafields.custom.a4 | metafield_tag }}"
@@ -102,6 +103,7 @@
         },
         "tab_content_4JhcMN": {
           "type": "tab_content",
+          "disabled": true,
           "settings": {
             "question": "{{ collection.metafields.custom.q5.value }}",
             "text": "{{ collection.metafields.custom.a5 | metafield_tag }}"
@@ -109,6 +111,7 @@
         },
         "tab_content_WyDJ99": {
           "type": "tab_content",
+          "disabled": true,
           "settings": {
             "question": "{{ collection.metafields.custom.q6.value }}",
             "text": "{{ collection.metafields.custom.a6 | metafield_tag }}"
@@ -116,6 +119,7 @@
         },
         "tab_content_VH7WCC": {
           "type": "tab_content",
+          "disabled": true,
           "settings": {
             "question": "{{ collection.metafields.custom.q7.value }}",
             "text": "{{ collection.metafields.custom.a7 | metafield_tag }}"
@@ -123,6 +127,7 @@
         },
         "tab_content_qjBgq7": {
           "type": "tab_content",
+          "disabled": true,
           "settings": {
             "question": "{{ collection.metafields.custom.q8.value }}",
             "text": "{{ collection.metafields.custom.a8 | metafield_tag }}"
@@ -130,6 +135,7 @@
         },
         "tab_content_TCJYMW": {
           "type": "tab_content",
+          "disabled": true,
           "settings": {
             "question": "{{ collection.metafields.custom.q9.value }}",
             "text": "{{ collection.metafields.custom.a9 | metafield_tag }}"
@@ -137,6 +143,7 @@
         },
         "tab_content_VLyDz7": {
           "type": "tab_content",
+          "disabled": true,
           "settings": {
             "question": "{{ collection.metafields.custom.q10.value }}",
             "text": "{{ collection.metafields.custom.a10 | metafield_tag }}"
@@ -144,6 +151,7 @@
         },
         "tab_content_AKV48A": {
           "type": "tab_content",
+          "disabled": true,
           "settings": {
             "question": "{{ collection.metafields.custom.q11.value }}",
             "text": "{{ collection.metafields.custom.a11 | metafield_tag }}"
@@ -151,6 +159,7 @@
         },
         "tab_content_Ky8e3f": {
           "type": "tab_content",
+          "disabled": true,
           "settings": {
             "question": "{{ collection.metafields.custom.q12.value }}",
             "text": "{{ collection.metafields.custom.a12 | metafield_tag }}"
