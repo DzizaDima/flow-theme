@@ -184,6 +184,7 @@
     },
     "3643d38b-24f2-4040-ab67-4b4b44a63aab": {
       "type": "collection--featured-collection",
+      "disabled": true,
       "settings": {
         "title": "FESTIVE COLLECTION",
         "richtext": "",
