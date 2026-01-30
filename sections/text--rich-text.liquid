@@ -1,6 +1,45 @@
 {{ 'section-rich-text.min.css' | asset_url | stylesheet_tag: preload: true }}
 <noscript>{{ 'section-rich-text.min.css' | asset_url | stylesheet_tag }}</noscript>
 
+<noscript>{{ 'section-rich-text.min.css' | asset_url | stylesheet_tag }}</noscript>
+
+<!-- ВСТАВЬ СЮДА: -->
+<style>
+/* collapsed spoiler */
+.collapsible {
+  max-height: 220px;        /* высота свернутого блока — при необходимости поменяй */
+  overflow: hidden;
+  position: relative;
+  transition: max-height .35s ease;
+}
+.collapsible.collapsible--expanded {
+  max-height: 9999px;
+}
+.collapsible__fade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 72px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), #ffffff);
+}
+/* Подстрой цвет градиента под цвет фона секции при необходимости */
+.homepage-sections-wrapper--dark .collapsible__fade { background: linear-gradient(to bottom, rgba(0,0,0,0), #000000); }
+
+.collapsible__btn {
+  display: inline-block;
+  margin-top: 14px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0;
+}
+</style>
+<!-- /ВСТАВЬ СЮДА -->
+
+
 {% case section.settings.section_width %}
     {% when 'full-width' %}
         {%- assign section_width = 'large--one whole' -%}
@@ -32,7 +71,15 @@
 
                     {% when 'richtext' %}
                         {% if block.settings.text != blank %}
-                            <div class="rte featured-row__subtext textarea text-link-animated" style="font-size: {{ block.settings.text_size }}px;">{{ block.settings.text }}</div>
+                            <div class="collapsible-wrapper">
+                              <div class="rte featured-row__subtext textarea text-link-animated collapsible" style="font-size: {{ block.settings.text_size }}px;">
+                                {{ block.settings.text }}
+                              </div>
+
+                              <div class="collapsible__fade" aria-hidden="true"></div>
+
+                              <button type="button" class="collapsible__btn" aria-expanded="false">Показать ещё</button>
+                            </div>
                         {% endif %}
 
                     {% when 'button' %}
@@ -46,7 +93,16 @@
 
                     {% when 'page' %}
                         {% if block.settings.page.content %}
-                            <div class="rte featured-row__subtext text-link-animated" style="font-size: {{ block.settings.text_size }}px;">{{ block.settings.page.content }}</div>
+                            <div class="collapsible-wrapper">
+                              <div class="rte featured-row__subtext text-link-animated collapsible" style="font-size: {{ block.settings.text_size }}px;">
+                                {{ block.settings.page.content }}
+                              </div>
+
+                              <div class="collapsible__fade" aria-hidden="true"></div>
+
+                              <button type="button" class="collapsible__btn" aria-expanded="false">Показать ещё</button>
+                            </div>
+
                         {% endif %}
 
                 {% endcase %}
@@ -60,6 +116,41 @@
 </div>
 
 </div>
+
+<!-- ВСТАВЬ СЮДА JS -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.collapsible-wrapper').forEach(function (wrap) {
+    var content = wrap.querySelector('.collapsible');
+    var btn = wrap.querySelector('.collapsible__btn');
+    var fade = wrap.querySelector('.collapsible__fade');
+
+    if (!content || !btn) return;
+
+    // Если текст короткий — скрываем кнопку и градиент
+    if (content.scrollHeight <= parseInt(getComputedStyle(content).maxHeight) || content.scrollHeight <= 240) {
+      btn.style.display = 'none';
+      if (fade) fade.style.display = 'none';
+      return;
+    }
+
+    btn.addEventListener('click', function () {
+      var expanded = btn.getAttribute('aria-expanded') === 'true';
+      if (expanded) {
+        content.classList.remove('collapsible--expanded');
+        btn.setAttribute('aria-expanded', 'false');
+        btn.textContent = 'Показать ещё';
+      } else {
+        content.classList.add('collapsible--expanded');
+        btn.setAttribute('aria-expanded', 'true');
+        btn.textContent = 'Скрыть';
+      }
+    });
+  });
+});
+</script>
+<!-- /ВСТАВЬ СЮДА JS -->
+
 
 {% schema %}
 {
