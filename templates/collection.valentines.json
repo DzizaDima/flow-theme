@@ -38,10 +38,80 @@
         "show_swatch_filter_labels": true,
         "enable_sorting": true
       }
+    },
+    "accordion_3JMygr": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_4tkCgy": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q1.value }}",
+            "text": "{{ collection.metafields.custom.a1 | metafield_tag }}"
+          }
+        },
+        "tab_content_TeYUPi": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q2.value }}",
+            "text": "{{ collection.metafields.custom.a2 | metafield_tag }}"
+          }
+        },
+        "tab_content_eEgBEn": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q3.value }}",
+            "text": "{{ collection.metafields.custom.a3 | metafield_tag }}"
+          }
+        },
+        "tab_content_FJRMnR": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q4.value }}",
+            "text": "{{ collection.metafields.custom.a4 | metafield_tag }}"
+          }
+        },
+        "tab_content_TRgqDf": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q5.value }}",
+            "text": "{{ collection.metafields.custom.a5 | metafield_tag }}"
+          }
+        },
+        "tab_content_MhAxYA": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q6.value }}",
+            "text": "{{ collection.metafields.custom.a6 | metafield_tag }}"
+          }
+        },
+        "tab_content_7aRJK3": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.q7.value }}",
+            "text": "{{ collection.metafields.custom.a7 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_4tkCgy",
+        "tab_content_TeYUPi",
+        "tab_content_eEgBEn",
+        "tab_content_FJRMnR",
+        "tab_content_TRgqDf",
+        "tab_content_MhAxYA",
+        "tab_content_7aRJK3"
+      ],
+      "name": "t:sections.accordion.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "Frequently asked questions",
+        "faq_icon": "plus_minus"
+      }
     }
   },
   "order": [
     "collection-header-spotlight",
-    "product-grid"
+    "product-grid",
+    "accordion_3JMygr"
   ]
 }
