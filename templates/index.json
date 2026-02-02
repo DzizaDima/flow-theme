@@ -15,7 +15,7 @@
         "text_static_QtFACM": {
           "type": "text_static",
           "settings": {
-            "text_static": "<p>Send your love</p>",
+            "text_static": "<h1>Send your love</h1>",
             "max_width_desktop": 100,
             "max_width_mobile": 100,
             "text_color": "#f1dfdf"
@@ -41,7 +41,7 @@
         "height_desktop": "l",
         "text_size_desktop": 40,
         "text_position_desktop": "left",
-        "image_mobile": "shopify://shop_images/Untitled_design.jpg",
+        "image_mobile": "shopify://shop_images/Ohara-206.jpg",
         "height_mobile": "s",
         "text_size_mobile": 18,
         "text_position_mobile": "left"
